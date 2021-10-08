@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/* title_abo */
+#title_abo {width: 100%; height: 450px; background: url('../images/sub_abofriends/title_abo.jpg')no-repeat center top; color: #fff; text-align: center;}
+.blk {width: 100%; height: 100%; background: rgba(0,0,0,.2);}
+#title_abo h2 { font-size: 50px; font-weight: 600; padding: 170px 0 10px;}
+#title_abo p { font-size: 20px; opacity: .5;}
+
+/* breadcrumbs */
+.breadcrumbs {padding-top: 30px;}
+.breadcrumbs li{float: left; margin-right: 10px; padding-left: 15px; background: url('../images/sub_abofriends/sub_breadcrumbs_arrow.png')no-repeat 0 5px;}
+.breadcrumbs li:first-child {padding-left: 25px; background: url('../images/sub_abofriends/sub_breadcrumbs_home.png')no-repeat 0 3px; }
+.breadcrumbs a{color: #999;}
+
+/* abo_about */
+#abo_about {padding: 200px 0 300px;}
+#abo_about .inner {width: 1110px; margin: 0 auto;}
+#abo_about .about_img {float: left;}
+#abo_about .about_desc {float: right; width: 610px;}
+#abo_about .about_desc h3 {font-size: 40px; color: #f24738; font-weight: 600; padding:120px 0 10px;}
+#abo_about .about_desc p{font-size: 18px; color: #333;}
+
+/* abo_why */
+#abo_why{}
+#abo_why .why_list li{float: left; width: 580px;}
+#abo_why .why_list li:first-child {margin-right: 40px; transform: translateY(70px); }
+#abo_why .why_list li h3 {font-size: 40px; color: #2e2473; font-weight: 600; padding: 40px 0 10px;}
+#abo_why .why_list li p{width: 550px;}
+
+/* abo_benefit */
+#abo_benefit{padding: 200px 0 300px;}
+#abo_benefit h3{font-size: 40px; color: #2e2473; font-weight: 600; padding-bottom: 30px;}
+#abo_benefit .bf_list li {float: left; width: 350px; height: 540px;  margin-left: 75px; position: relative; padding-top: 150px;}
+#abo_benefit .bf_list li:first-child {margin-left: 0;}
+
+#abo_benefit .bf_list  li .bf_icon { width: 130px; height: 130px; background: #f2f2f2; border-radius: 50%; padding: 30px 25px; transform: translate(calc(50% + 50px),48px);}
+#abo_benefit .bf_list  li:nth-child(2) .bf_icon {padding: 35px 25px;}
+
+#abo_benefit .bf_list li  dl { background: #fff; box-shadow: 3px 3px 6px rgba(0,0,0,.2); width: 250px; height: 250px; text-align: center; padding: 50px 0; margin: 0 50px;}
+#abo_benefit .bf_list li  dl dt {display: inline-block; padding: 10px 0px; font-size: 20px; color: #2e2473; font-weight: 600; border-bottom: 1px solid #f24738; width: 170px; margin-bottom: 20px;}
+
+#abo_benefit .bf_list li:nth-child(1)::before {content: ''; width: 350px; height: 350px; background: url('../images/sub_abofriends/benefit_bloodcheck.jpg')no-repeat 0 0;  position: absolute; left: 0; top: 0; z-index: -1;}
+#abo_benefit .bf_list li:nth-child(2)::before {content: ''; width: 350px; height: 350px; background: url('../images/sub_abofriends/benefit_sms.jpg')no-repeat 0 0;  position: absolute; left: 0; top: 0; z-index: -1;}
+#abo_benefit .bf_list li:nth-child(3)::before {content: ''; width: 350px; height: 350px; background: url('../images/sub_abofriends/benefit_culture.jpg')no-repeat 0 0;  position: absolute; left: 0; top: 0; z-index: -1;}
+
+/* member */
+#member {height: 905px; background: url('../images/sub_abofriends/member_graph.jpg')no-repeat center bottom;}
+
+#member h3 {font-size: 60px; font-weight: 600; color: #f24738;}
+#member .mb_num {font-size: 100px; font-weight: 600; color: #f24738; line-height: 1;}
+#member .mb_txt {font-size: 20px; padding-top: 50px;}
+
+
+
+/* house */
+/* title_abo */
+#title_house {width: 100%; height: 450px; background: url('../images/sub_house/title_house.jpg')no-repeat center top; color: #fff; text-align: center;}
+#title_house h2 { font-size: 50px; font-weight: 600; padding: 170px 0 10px;}
+#title_house p { font-size: 20px; opacity: .5;}
+
+/* about_house */
+#about_house { padding: 300px 0 250px; width: 1560px; margin-left: 360px;}
+
+#about_house .about_txt{float: left; width: 600px;}
+#about_house .about_txt h3{font-size: 60px; font-weight: 600;}
+#about_house .about_txt h3 span{color: #f24738;}
+#about_house .about_txt p{font-size: 20px; padding: 50px 0 115px;}
+
+#about_house .about_img{float: right; width: 910px; height: 534px; background: #f24738; position: relative;}
+#about_house .about_img img {position: absolute; right: 0; bottom: 0; z-index: 3;}
+#about_house .about_img .time {width: 300px; height: 160px; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,.2); border: 1px solid #f2f2f2; padding: 15px 24px; position: absolute; left: 50px; bottom: -50px;}
+#about_house .about_img .time h4{ font-size: 20px; font-weight: 600;}
+#about_house .about_img .time p{white-space: pre; padding: 12px 0 0;}
+#about_house .about_img .time .caution {font-size: 14px; padding-bottom: 20px; color: #999;}
+
+/* house_tips */
+#house_tips{ background: url('../images/sub_house/tips_bg.png') no-repeat center 80px; width: 100%; height: 910px;}
+#house_tips .subtit {font-size: 20px; font-weight: 600;}
+#house_tips h3{font-size: 40px; font-weight: 600; color: #2e2473;}
+
+#house_tips .tip_list {}
+#house_tips .tip_list li{ width: 720px; height: 220px; border-radius: 20px; margin-top: 30px;}
+
+/* #house_tips .tip_list li:nth-child(1) {background: url('../images/sub_house/tips_reservation.jpg') no-repeat center top;}
+#house_tips .tip_list .right_tip {background: url('../images/sub_house//tips_check.jpg') no-repeat center top; text-align: right; margin-left: 480px;}
+#house_tips .tip_list li:nth-child(3) {background: url('../images/sub_house/tips_redconnect.jpg') no-repeat center top;} */
+#house_tips .tip_list .right_tip {text-align: right; margin-left: 480px;}
+#house_tips .tip_list li .blk { border-radius: 20px;}
+#house_tips .tip_list li dl { padding: 35px; color: #333;}
+#house_tips .tip_list li dl dt{font-size: 30px; padding-bottom: 10px; font-weight: 600; color: #f24738;}
+
+
+/* house_ser */
+#house_ser{ padding: 300px 0;}
+#house_ser .subtit {font-size: 20px; font-weight: 600;}
+#house_ser h3{font-size: 40px; font-weight: 600; color: #2e2473; padding-bottom: 30px;}
+#house_ser .ser_txt .btn_more {display: inline-block; color: #f24738; border: 1px solid #f24738; padding: 12px 40px; transition: background .2s; color: .2s; margin: 40px 0 100px;}
+#house_ser .ser_txt .btn_more:hover {background: #f24738; color: #fff;}
+
+#house_ser .ser_info {}
+#house_ser .ser_info li{float: left; margin-right: 170px; text-align: center; color: #666; font-size: 20px; width: 284px;}
+#house_ser .ser_info li .arrow {width: 63px; height: 54px; background: url('../images/sub_house/service_arrow.png')no-repeat center top; transform: translate(340px, -240px);}
+#house_ser .ser_info li:nth-child(3){margin-right:0;}
